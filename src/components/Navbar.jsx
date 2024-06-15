@@ -2,9 +2,9 @@ import { navigation } from "../constants";
 
 const Navbar = () => {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 lg:bg-n-8/90 lg:backdrop-blur-sm">
-      <div className="flex flex-row items-center justify-between px-5 lg:px-7.5 xl:px-10">
-        <a href="#" className="flex items-center p-5 gap-2">
+    <header className="w-full lg:bg-n-8/90 px-5 py-5">
+      <div className="flex flex-row items-center justify-between lg:px-7.5 xl:px-10">
+        <a href="#" className="flex items-center gap-2">
           <img
             src="./src/assets/images/logo.svg"
             alt="logo"
@@ -20,7 +20,7 @@ const Navbar = () => {
               <a
                 key={item.id}
                 href={item.url}
-                className="border rounded-full py-1 px-5 font-grotesk"
+                className="border rounded-full py-1 px-5 font-grotesk hover:bg-yellow transition-all"
               >
                 {item.title}
               </a>
@@ -37,8 +37,6 @@ const Navbar = () => {
           />
         </a>
       </div>
-
-      <div></div>
     </header>
   );
 };
