@@ -18,3 +18,11 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+body {
+  width: 100dvw;
+  overflow-x: hidden;
+  height: 100%;
+  background: #e9e9e9;
+  user-select: none;
+}
