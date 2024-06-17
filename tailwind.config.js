@@ -12,6 +12,9 @@ export default {
         code: "var(--font-code)",
         grotesk: "var(--font-grotesk)",
       },
+      backgroundImage: {
+        robotMain: "url('./src/assets/images/robot_main.jpg')",
+      },
     },
   },
   plugins: [],

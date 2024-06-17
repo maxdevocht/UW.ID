@@ -11,7 +11,7 @@ const Navbar = () => {
             width={36}
             height={36}
           />
-          <p className="font-code font-semibold text-2xl">UW.ID</p>
+          <p className="font-code font-semibold text-2xl">DANGO.</p>
         </a>
 
         <nav className="flex max-md:hidden">
